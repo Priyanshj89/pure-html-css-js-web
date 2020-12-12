@@ -1,0 +1,74 @@
+body {
+	padding: 10px;
+	background-color: black;
+	justify-content: center;
+	text-align: center;
+}
+
+.heading {
+	font-size: 36px;
+	text-align: center;
+	font-weight: 700;
+	color: white;
+}
+
+#genre-input {
+	background-color: white;
+	border: none;
+	min-height: 1.5rem;
+	padding: 4px;
+}
+
+#genre-input:focus {
+	outline: none;
+}
+
+#search-button {
+	border: none;
+	background-color: red;
+	color: white;
+	margin: 1rem;
+	padding: 6px;
+	border-radius: 10px;
+	font-size: 16px;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+#search-button:focus {
+	outline: none;
+}
+
+#search-button:active {
+	background-color: rgb(206, 41, 29);
+	transform: translateY(1.5px);
+}
+
+.genre {
+	border: none;
+	background-color: rgb(170, 5, 5);
+	color: white;
+	margin-right: 20px;
+	padding: 6px;
+	border-radius: 10px;
+	font-size: 16px;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+.genre:focus {
+	outline: none;
+}
+
+#quote-block {
+	background-color: rgb(54, 50, 50);
+	border-color: lightgray;
+	border-style: solid;
+	margin-top: 5px;
+	border-radius: 10px;
+	display: none;
+}
+
+#tagged-quotes {
+	color: white;
+}

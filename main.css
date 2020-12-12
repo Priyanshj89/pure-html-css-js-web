@@ -1,0 +1,22 @@
+body {
+	padding: 10px;
+	text-align: center;
+	background-color: rgb(250, 216, 222);
+}
+
+.main-heading {
+	font-size: 36px;
+	font-weight: 700;
+}
+
+.links {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-weight: 600;
+	background-color: purple;
+	cursor: pointer;
+	padding: 7px;
+	border-radius: 10px;
+	margin-right: 20px;
+}
